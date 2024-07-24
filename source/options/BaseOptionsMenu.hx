@@ -22,6 +22,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 	public function new()
 	{
+		controls.isInSubstate = true;
+		
 		super();
 
 		if(title == null) title = 'Options';
@@ -93,6 +95,8 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 		changeSelection();
 		reloadCheckboxes();
+
+		addVirtualPad(LEFT_FULL, A_B_C);
 	}
 
 	public function addOption(option:Option) {
@@ -208,7 +212,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 				}
 			}
 
-			if(controls.RESET)
+			if(controls.RESET || virtualPad.buttonC.justPressed)
 			{
 				var leOption:Option = optionsArray[curSelected];
 				leOption.setValue(leOption.defaultValue);
