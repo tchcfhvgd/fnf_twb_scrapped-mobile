@@ -7,6 +7,7 @@ import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
 import lime.system.Clipboard;
 import flixel.util.FlxGradient;
+import flixel.math.FlxPoint;
 import objects.StrumNote;
 import objects.Note;
 import flixel.addons.transition.FlxTransitionableState;
