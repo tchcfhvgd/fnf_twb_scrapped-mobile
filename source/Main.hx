@@ -64,14 +64,6 @@ class Main extends Sprite
 		#elseif ios
 		Sys.setCwd(System.documentsDirectory);
 		#end
-		
-		#if cpp
-		@:privateAccess
-		untyped __global__.__hxcpp_set_critical_error_handler(SUtil.onError);
-		#elseif hl
-		@:privateAccess
-		Api.setErrorHandler(SUtil.onError);
-		#end
 			
 		if (stage != null)
 		{
@@ -113,7 +105,7 @@ class Main extends Sprite
 		FlxG.mouse.visible = false;
 		#end
 		
-		#if desktop
+		#if CRASH_HANDLER
 		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onCrash);
 		#end
 
@@ -151,7 +143,7 @@ class Main extends Sprite
 
 	// Code was entirely made by sqirra-rng for their fnf engine named "Izzy Engine", big props to them!!!
 	// very cool person for real they don't get enough credit for their work
-	#if CRASH_HANDLER
+        #if CRASH_HANDLER
 	function onCrash(e:UncaughtErrorEvent):Void
 	{
 		var errMsg:String = "";
@@ -186,7 +178,7 @@ class Main extends Sprite
 		Sys.println("Crash dump saved in " + Path.normalize(path));
 
 		Application.current.window.alert(errMsg, "Error!");
-		#if desktop
+		#if DISCORD_ALLOWED
 		DiscordClient.shutdown();
 		#end
 		Sys.exit(1);
