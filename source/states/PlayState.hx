@@ -717,6 +717,8 @@ class PlayState extends MusicBeatState
 		precacheList.set('alphabet', 'image');
 		resetRPC();
 
+		addMobileControls(false);
+				
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		callOnScripts('onCreatePost');
@@ -738,6 +740,11 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		#if (!android)
+		addVirtualPad(NONE, P);
+    	addVirtualPadCamera(false);
+		#end
+					
 		super.create();
 		Paths.clearUnusedMemory();
 		
@@ -1037,6 +1044,7 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown()
 	{
+		mobileControls.visible = true;
 		if(startedCountdown) {
 			callOnScripts('onStartCountdown');
 			return false;
@@ -1621,6 +1629,7 @@ class PlayState extends MusicBeatState
 			for (timer in modchartTimers) timer.active = true;
 			#end
 
+			mobileControls.visible = #if !android virtualPad.visible = #end true;
 			paused = false;
 			callOnScripts('onResume');
 			resetRPC(startTimer != null && startTimer.finished);
@@ -1711,7 +1720,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #else || virtualPad.buttonP.justPressed #end && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnScripts('onPause', null, true);
 			if(ret != FunkinLua.Function_Stop) {
@@ -1890,6 +1899,7 @@ class PlayState extends MusicBeatState
 		persistentUpdate = false;
 		persistentDraw = true;
 		paused = true;
+		mobileControls.visible = #if !android virtualPad.visible = #end false;
 
 		// 1 / 1000 chance for Gitaroo Man easter egg
 		/*if (FlxG.random.bool(0.1))
@@ -2346,6 +2356,7 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
+		mobileControls.visible = #if !android virtualPad.visible = #end false;
 
 		#if ACHIEVEMENTS_ALLOWED
 		if(achievementObj != null)
