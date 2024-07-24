@@ -47,6 +47,7 @@ import flixel.FlxSprite;
 import flixel.FlxCamera;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
+import flixel.util.FlxDestroyUtil;
 import flixel.util.FlxTimer;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
