@@ -11,6 +11,8 @@ import android.Tools as AndroidTools;
 import android.os.BatteryManager as AndroidBatteryManager;
 #end
 
+import openfl.events.UncaughtErrorEvent;
+
 #if sys
 import sys.*;
 import sys.io.*;
