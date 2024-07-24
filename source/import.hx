@@ -10,6 +10,14 @@ import llua.*;
 import llua.Lua;
 #end
 
+//Mobile Controls
+import mobile.objects.MobileControls;
+import mobile.flixel.FlxHitbox;
+import mobile.flixel.FlxVirtualPad;
+import mobile.flixel.input.FlxMobileInputID;
+import mobile.backend.Data;
+import mobile.backend.SUtil;
+
 import backend.Paths;
 import backend.Controls;
 import backend.CoolUtil;
