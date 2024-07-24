@@ -1,6 +1,7 @@
 package objects;
 
 import flixel.math.FlxRect;
+import flixel.math.FlxPoint;
 
 class Bar extends FlxSpriteGroup
 {
