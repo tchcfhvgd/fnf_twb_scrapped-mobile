@@ -125,7 +125,7 @@ class Main extends Sprite
 		FlxG.android.preventDefaultKeys = [BACK];
 		#end
 
-		Data.setup();
+		//Data.setup();
 
 		// shader coords fix
 		FlxG.signals.gameResized.add(function (w, h) {
