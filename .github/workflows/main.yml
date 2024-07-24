@@ -34,7 +34,7 @@ jobs:
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.3.5
       
       - name: Restore Previous Cache
         id: cache-debug-build-android-restore
@@ -50,23 +50,22 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp
-          haxelib git lime https://github.com/mcagabe19-stuff/lime
-          haxelib install openfl
-          haxelib install hxdiscord_rpc
-          haxelib install flixel 5.5.0
-          haxelib install flixel-tools
-          haxelib install flixel-ui
-          haxelib install flixel-addons 3.2.1
-          haxelib install tjson
-          haxelib install hxjsonast
-          haxelib install hscript
-          haxelib git SScript https://github.com/MobilePorting/SScript-Base
-          haxelib install hxCodec
-          haxelib git flxanimate https://github.com/beihu235/flxanimate
-          haxelib git linc_luajit https://github.com/mcagabe19/linc_luajit-legacy.git
-          haxelib install extension-androidtools
-          haxelib install hxcpp-debug-server
+          haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp --quiet
+          haxelib git lime https://github.com/mcagabe19-stuff/lime --quiet
+          haxelib install openfl --quiet
+          haxelib install flixel 5.5.0 --quiet
+          haxelib install flixel-tools --quiet
+          haxelib install flixel-ui --quiet
+          haxelib install flixel-addons 3.2.1 --quiet
+          haxelib install tjson --quiet
+          haxelib install hxjsonast --quiet
+          haxelib install hscript --quiet
+          haxelib git SScript https://github.com/MobilePorting/SScript-Base --quiet
+          haxelib install hxCodec --quiet
+          haxelib git flxanimate https://github.com/beihu235/flxanimate --quiet
+          haxelib git linc_luajit https://github.com/mcagabe19/linc_luajit-legacy.git --quiet
+          haxelib install extension-androidtools --quiet
+          haxelib install hxcpp-debug-server --quiet
           haxelib list
       
       - name: Setup Lime
