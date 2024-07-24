@@ -103,4 +103,61 @@ class SUtil
 		trace('$title - $message');
 		#end
 	}
+
+	private static function onError(error:UncaughtErrorEvent):Void
+	{
+		final log:Array<String> = [error.error];
+
+		for (item in CallStack.exceptionStack(true))
+		{
+			switch (item)
+			{
+				case CFunction:
+					log.push('C Function');
+				case Module(m):
+					log.push('Module [$m]');
+				case FilePos(s, file, line, column):
+					log.push('$file [line $line]');
+				case Method(classname, method):
+					log.push('$classname [method $method]');
+				case LocalFunction(name):
+					log.push('Local Function [$name]');
+			}
+		}
+
+		final msg:String = log.join('\n');
+
+		#if sys
+		try
+		{
+			if (!FileSystem.exists('logs'))
+				FileSystem.createDirectory('logs');
+
+			File.saveContent('logs/' + Date.now().toString().replace(' ', '-').replace(':', "'") + '.txt', msg + '\n');
+		}
+		catch (e:Dynamic)
+		{
+			#if (android && debug)
+			Toast.makeText("Error!\nCouldn't save the crash dump because:\n" + e, Toast.LENGTH_LONG);
+			#else
+			LimeLogger.println("Error!\nCouldn't save the crash dump because:\n" + e);
+			#end
+		}
+		#end
+
+		showPopUp(msg, "Error!");
+
+		#if DISCORD_ALLOWED
+		DiscordClient.shutdown();
+		#end
+
+		#if js
+		if (FlxG.sound.music != null)
+			FlxG.sound.music.stop();
+
+		js.Browser.window.location.reload(true);
+		#else
+		LimeSystem.exit(1);
+		#end
+			}
 }
