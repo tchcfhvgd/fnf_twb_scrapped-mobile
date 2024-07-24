@@ -39,6 +39,7 @@ import cutscenes.DialogueBoxPsych;
 import states.StoryMenuState;
 import states.FreeplayState;
 import states.editors.ChartingState;
+import states.editors.CharacterEditorState;
 
 import substates.PauseSubState;
 import substates.GameOverSubstate;
@@ -716,8 +717,6 @@ class PlayState extends MusicBeatState
 		precacheList.set('alphabet', 'image');
 		resetRPC();
 
-		addMobileControls(false);
-				
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		callOnScripts('onCreatePost');
@@ -739,11 +738,6 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		#if (!android)
-		addVirtualPad(NONE, P);
-    	addVirtualPadCamera(false);
-		#end
-					
 		super.create();
 		Paths.clearUnusedMemory();
 		
@@ -1043,7 +1037,6 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown()
 	{
-		mobileControls.visible = true;
 		if(startedCountdown) {
 			callOnScripts('onStartCountdown');
 			return false;
@@ -1628,7 +1621,6 @@ class PlayState extends MusicBeatState
 			for (timer in modchartTimers) timer.active = true;
 			#end
 
-			mobileControls.visible = #if !android virtualPad.visible = #end true;
 			paused = false;
 			callOnScripts('onResume');
 			resetRPC(startTimer != null && startTimer.finished);
@@ -1719,7 +1711,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
-		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #else || virtualPad.buttonP.justPressed #end && startedCountdown && canPause)
+		if (controls.PAUSE && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnScripts('onPause', null, true);
 			if(ret != FunkinLua.Function_Stop) {
@@ -1898,7 +1890,6 @@ class PlayState extends MusicBeatState
 		persistentUpdate = false;
 		persistentDraw = true;
 		paused = true;
-		mobileControls.visible = #if !android virtualPad.visible = #end false;
 
 		// 1 / 1000 chance for Gitaroo Man easter egg
 		/*if (FlxG.random.bool(0.1))
@@ -1952,8 +1943,7 @@ class PlayState extends MusicBeatState
 		paused = true;
 		cancelMusicFadeTween();
 		#if desktop DiscordClient.resetClientID(); #end
-		
-		MusicBeatState.switchState(new ChartingState());
+		MusicBeatState.switchState(new CharacterEditorState(SONG.player2));
 	}
 
 	public var isDead:Bool = false; //Don't mess with this on Lua!!!
@@ -2356,7 +2346,6 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
-		mobileControls.visible = #if !android virtualPad.visible = #end false;
 
 		#if ACHIEVEMENTS_ALLOWED
 		if(achievementObj != null)
@@ -3180,7 +3169,7 @@ class PlayState extends MusicBeatState
 			if(script != null)
 			{
 				script.call('onDestroy');
-				script.destroy();
+				script.kill();
 			}
 
 		while (hscriptArray.length > 0)
@@ -3338,7 +3327,7 @@ class PlayState extends MusicBeatState
 				if(newScript.parsingException != null)
 				{
 					addTextToDebug('ERROR ON LOADING: ${newScript.parsingException.message}', FlxColor.RED);
-					newScript.destroy();
+					newScript.kill();
 					return;
 				}
 	
@@ -3352,7 +3341,7 @@ class PlayState extends MusicBeatState
 							if (e != null)
 								addTextToDebug('ERROR ($file: onCreate) - ${e.message.substr(0, e.message.indexOf('\n'))}', FlxColor.RED);
 	
-						newScript.destroy();
+						newScript.kill();
 						hscriptArray.remove(newScript);
 						trace('failed to initialize tea interp!!! ($file)');
 					}
@@ -3366,7 +3355,7 @@ class PlayState extends MusicBeatState
 				var newScript:HScript = cast (SScript.global.get(file), HScript);
 				if(newScript != null)
 				{
-					newScript.destroy();
+					newScript.kill();
 					hscriptArray.remove(newScript);
 				}
 			}
