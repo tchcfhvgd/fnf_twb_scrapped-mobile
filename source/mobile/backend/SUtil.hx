@@ -12,6 +12,8 @@ import android.os.BatteryManager as AndroidBatteryManager;
 #end
 
 import openfl.events.UncaughtErrorEvent;
+import haxe.CallStack;
+import lime.utils.Log as LimeLogger;
 
 #if sys
 import sys.*;
