@@ -122,7 +122,7 @@ class MasterEditorMenu extends MusicBeatState
 					FlxG.save.data.galleryLock = true;
 					MusicBeatState.switchState(new MainMenuState());
 				case 'Character Editor':
-					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
+					//LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
 				case 'Week Editor':
 					MusicBeatState.switchState(new WeekEditorState());
 				case 'Open True Ending Menu':
