@@ -8,6 +8,7 @@ import flixel.system.debug.interaction.tools.Pointer.GraphicCursorCross;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.addons.ui.*;
 import flixel.ui.FlxButton;
+import flixel.math.FlxPoint;
 import flixel.util.FlxDestroyUtil;
 
 import openfl.net.FileReference;
