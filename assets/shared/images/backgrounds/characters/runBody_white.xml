@@ -1,24 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Sans nom-1.png">
-	<!-- Created with Adobe Animate version 22.0.8.217 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="RunBody0000" x="0" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0001" x="661" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0002" x="1322" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0003" x="1983" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0004" x="2644" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0005" x="3305" y="0" width="661" height="661"/>
-	<SubTexture name="RunBody0006" x="0" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0007" x="661" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0008" x="1322" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0009" x="1983" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0010" x="2644" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0011" x="3305" y="661" width="661" height="661"/>
-	<SubTexture name="RunBody0012" x="0" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0013" x="661" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0014" x="1322" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0015" x="1983" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0016" x="2644" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0017" x="3305" y="1322" width="661" height="661"/>
-	<SubTexture name="RunBody0018" x="0" y="1983" width="661" height="661"/>
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="runBody_white.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="RunBody0000" x="0" y="0" width="499" height="558" frameX="-67" frameY="-32" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0001" x="980" y="0" width="475" height="565" frameX="-82" frameY="-31" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0002" x="2322" y="1193" width="341" height="583" frameX="-171" frameY="-31" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0003" x="2670" y="595" width="345" height="591" frameX="-166" frameY="-32" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0004" x="2322" y="610" width="347" height="583" frameX="-166" frameY="-33" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0005" x="766" y="1683" width="355" height="577" frameX="-162" frameY="-35" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0006" x="389" y="1683" width="377" height="577" frameX="-143" frameY="-35" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0007" x="1910" y="0" width="412" height="571" frameX="-130" frameY="-34" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0008" x="454" y="1119" width="446" height="559" frameX="-120" frameY="-31" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0009" x="499" y="0" width="481" height="561" frameX="-88" frameY="-29" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0010" x="0" y="558" width="482" height="561" frameX="-76" frameY="-29" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0011" x="0" y="1119" width="454" height="564" frameX="-84" frameY="-29" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0012" x="1910" y="571" width="401" height="574" frameX="-113" frameY="-31" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0013" x="0" y="2266" width="356" height="579" frameX="-161" frameY="-34" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0014" x="2670" y="1186" width="349" height="584" frameX="-171" frameY="-37" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0015" x="2670" y="0" width="350" height="595" frameX="-171" frameY="-38" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0016" x="2322" y="0" width="348" height="610" frameX="-172" frameY="-36" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0017" x="0" y="1683" width="389" height="583" frameX="-129" frameY="-34" frameWidth="661" frameHeight="661"/>
+	<SubTexture name="RunBody0018" x="1455" y="0" width="455" height="567" frameX="-79" frameY="-32" frameWidth="661" frameHeight="661"/>
 </TextureAtlas>
