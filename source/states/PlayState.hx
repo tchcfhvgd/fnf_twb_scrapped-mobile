@@ -3327,7 +3327,7 @@ class PlayState extends MusicBeatState
 				if(newScript.parsingException != null)
 				{
 					addTextToDebug('ERROR ON LOADING: ${newScript.parsingException.message}', FlxColor.RED);
-					newScript.kill();
+					newScript.destroy();
 					return;
 				}
 	
