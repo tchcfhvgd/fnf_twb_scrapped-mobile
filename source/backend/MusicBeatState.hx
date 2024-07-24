@@ -3,7 +3,7 @@ package backend;
 import flixel.addons.ui.FlxUIState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxState;
-import backend.PsychCamera;
+//import backend.PsychCamera;
 
 class MusicBeatState extends FlxUIState
 {
@@ -90,8 +90,6 @@ class MusicBeatState extends FlxUIState
 		}
 	}
 
-	var _psychCameraInitialized:Bool = false;
-
 	override function create() {
 		instance = this;
 		camBeat = FlxG.camera;
@@ -99,7 +97,7 @@ class MusicBeatState extends FlxUIState
 		var skip:Bool = FlxTransitionableState.skipNextTransOut;
 		#if MODS_ALLOWED Mods.updatedOnState = false; #end
 
-		if(!_psychCameraInitialized) initPsychCamera();
+		//if(!_psychCameraInitialized) initPsychCamera();
 
 		super.create();
 
