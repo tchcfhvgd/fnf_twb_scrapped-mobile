@@ -3,7 +3,7 @@ package backend;
 import flixel.addons.ui.FlxUIState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxState;
-//import backend.PsychCamera;
+import backend.PsychCamera;
 
 class MusicBeatState extends FlxUIState
 {
@@ -14,7 +14,6 @@ class MusicBeatState extends FlxUIState
 
 	private var curStep:Int = 0;
 	private var curBeat:Int = 0;
-	public static var camBeat:FlxCamera;
 
 	private var curDecStep:Float = 0;
 	private var curDecBeat:Float = 0;
@@ -90,22 +89,33 @@ class MusicBeatState extends FlxUIState
 		}
 	}
 
+	var _psychCameraInitialized:Bool = false;
+
 	override function create() {
 		instance = this;
-		camBeat = FlxG.camera;
 
 		var skip:Bool = FlxTransitionableState.skipNextTransOut;
 		#if MODS_ALLOWED Mods.updatedOnState = false; #end
 
-		//if(!_psychCameraInitialized) initPsychCamera();
+		if(!_psychCameraInitialized) initPsychCamera();
 
 		super.create();
 
 		if(!skip) {
-			openSubState(new CustomFadeTransition(0.7, true));
+			openSubState(new CustomFadeTransition(0.6, true));
 		}
 		FlxTransitionableState.skipNextTransOut = false;
 		timePassedOnState = 0;
+	}
+
+	public function initPsychCamera():PsychCamera
+	{
+		var camera = new PsychCamera();
+		FlxG.cameras.reset(camera);
+		FlxG.cameras.setDefaultDrawTarget(camera, true);
+		_psychCameraInitialized = true;
+		//trace('initialized psych camera ' + Sys.cpuTime());
+		return camera;
 	}
 
 	public static var timePassedOnState:Float = 0;
