@@ -2,6 +2,7 @@ package options;
 
 import states.MainMenuState;
 import backend.StageData;
+import mobile.substates.MobileControlSelectSubState;
 
 class OptionsState extends MusicBeatState
 {
@@ -12,6 +13,7 @@ class OptionsState extends MusicBeatState
 	public static var onPlayState:Bool = false;
 
 	function openSelectedSubstate(label:String) {
+		if (label != "Adjust Delay and Combo") removeVirtualPad();
 		switch(label) {
 			case 'Note Colors':
 				openSubState(new options.NotesSubState());
@@ -63,12 +65,17 @@ class OptionsState extends MusicBeatState
 		changeSelection();
 		ClientPrefs.saveSettings();
 
+		addVirtualPad(UP_DOWN, A_B_C);
+		
 		super.create();
 	}
 
 	override function closeSubState() {
 		super.closeSubState();
 		ClientPrefs.saveSettings();
+		controls.isInSubstate = false;
+                removeVirtualPad();
+		addVirtualPad(UP_DOWN, A_B_C);
 	}
 
 	override function update(elapsed:Float) {
@@ -79,6 +86,10 @@ class OptionsState extends MusicBeatState
 		}
 		if (controls.UI_DOWN_P) {
 			changeSelection(1);
+		}
+
+		if (virtualPad.buttonC.justPressed || FlxG.keys.justPressed.CONTROL && controls.mobileC) {
+			openSubState(new MobileControlSelectSubState());
 		}
 
 		if (controls.BACK) {
