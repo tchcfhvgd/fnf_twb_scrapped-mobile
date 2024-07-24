@@ -1,97 +1,97 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="background.png">
-	<!-- Created with Adobe Animate version 22.0.8.217 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Base0000" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0001" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0002" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0003" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0004" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0005" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0006" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0007" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0008" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0009" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0010" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0011" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0012" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0013" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0014" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0015" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0016" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0017" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0018" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0019" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0020" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0021" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0022" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0023" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0024" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0025" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0026" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0027" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0028" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0029" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0030" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0031" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0032" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0033" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0034" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0035" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0036" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0037" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0038" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0039" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0040" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0041" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0042" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0043" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0044" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0045" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0046" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0047" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0048" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0049" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="Base0050" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0051" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0052" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0053" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0054" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0055" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0056" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0057" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0058" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0059" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0060" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0061" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0062" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0063" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0064" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="Base0065" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="intro0000" x="2560" y="720" width="1280" height="720"/>
-	<SubTexture name="intro0001" x="3840" y="720" width="1280" height="720"/>
-	<SubTexture name="intro0002" x="5120" y="720" width="1280" height="720"/>
-	<SubTexture name="intro0003" x="6400" y="720" width="1280" height="720"/>
-	<SubTexture name="intro0004" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0005" x="1280" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0006" x="2560" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0007" x="3840" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0008" x="5120" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0009" x="6400" y="1440" width="1280" height="720"/>
-	<SubTexture name="intro0010" x="0" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0011" x="1280" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0012" x="2560" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0013" x="3840" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0014" x="5120" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0015" x="6400" y="2160" width="1280" height="720"/>
-	<SubTexture name="intro0016" x="0" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0017" x="0" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0018" x="1280" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0019" x="1280" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0020" x="2560" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0021" x="3840" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0022" x="3840" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0023" x="5120" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0024" x="5120" y="2880" width="1280" height="720"/>
-	<SubTexture name="intro0025" x="5120" y="2880" width="1280" height="720"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Base0000" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0001" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0002" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0003" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0004" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0005" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0006" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0007" x="2821" y="724" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0008" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0009" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0010" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0011" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0012" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0013" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0014" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0015" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0016" x="0" y="0" width="1109" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0017" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0018" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0019" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0020" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0021" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0022" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0023" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0024" x="1657" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0025" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0026" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0027" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0028" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0029" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0030" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0031" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0032" x="2470" y="2172" width="813" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0033" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0034" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0035" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0036" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0037" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0038" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0039" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0040" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0041" x="830" y="2172" width="827" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0042" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0043" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0044" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0045" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0046" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0047" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0048" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0049" x="1976" y="0" width="845" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0050" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0051" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0052" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0053" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0054" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0055" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0056" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0057" x="1109" y="0" width="867" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0058" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0059" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0060" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0061" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0062" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0063" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0064" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Base0065" x="0" y="724" width="860" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0000" x="4283" y="724" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0001" x="1714" y="724" width="236" height="54" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0002" x="0" y="3620" width="637" height="257" frameX="2" frameY="-30" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0003" x="3656" y="2896" width="435" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0004" x="3656" y="2172" width="511" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0005" x="3656" y="724" width="627" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0006" x="3656" y="1448" width="617" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0007" x="2302" y="2896" width="644" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0008" x="3656" y="0" width="643" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0009" x="2946" y="2896" width="643" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0010" x="1620" y="2896" width="682" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0011" x="812" y="2896" width="808" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0012" x="1976" y="724" width="838" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0013" x="0" y="2896" width="812" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0014" x="0" y="2172" width="830" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0015" x="860" y="724" width="854" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0016" x="0" y="1448" width="838" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0017" x="0" y="1448" width="838" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0018" x="1675" y="1448" width="836" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0019" x="1675" y="1448" width="836" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0020" x="838" y="1448" width="837" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0021" x="2821" y="0" width="835" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0022" x="2821" y="0" width="835" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0023" x="2821" y="1448" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0024" x="2821" y="1448" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="intro0025" x="2821" y="1448" width="832" height="724" frameX="2" frameY="2" frameWidth="1280" frameHeight="720"/>
 </TextureAtlas>
