@@ -1952,9 +1952,8 @@ class PlayState extends MusicBeatState
 		paused = true;
 		cancelMusicFadeTween();
 		#if desktop DiscordClient.resetClientID(); #end
-		#if desktop
-		MusicBeatState.switchState(new CharacterEditorState(SONG.player2));
-		#end
+		
+		MusicBeatState.switchState(new ChartingState());
 	}
 
 	public var isDead:Bool = false; //Don't mess with this on Lua!!!
