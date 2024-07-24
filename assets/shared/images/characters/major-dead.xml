@@ -1,194 +1,194 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="major-dead.png">
-	<!-- Created with Adobe Animate version 23.0.2.103 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Trigger0000" x="3840" y="1440" width="1280" height="720"/>
-	<SubTexture name="Trigger0001" x="5120" y="1440" width="1280" height="720"/>
-	<SubTexture name="Trigger0002" x="6400" y="1440" width="1280" height="720"/>
-	<SubTexture name="Trigger0003" x="0" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0004" x="1280" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0005" x="2560" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0006" x="3840" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0007" x="5120" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0008" x="6400" y="2160" width="1280" height="720"/>
-	<SubTexture name="Trigger0009" x="0" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0010" x="1280" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0011" x="2560" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0012" x="3840" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0013" x="5120" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0014" x="6400" y="2880" width="1280" height="720"/>
-	<SubTexture name="Trigger0015" x="0" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0016" x="1280" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0017" x="2560" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0018" x="3840" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0019" x="5120" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0020" x="6400" y="3600" width="1280" height="720"/>
-	<SubTexture name="Trigger0021" x="0" y="4320" width="1280" height="720"/>
-	<SubTexture name="Trigger0022" x="1280" y="4320" width="1280" height="720"/>
-	<SubTexture name="Trigger0023" x="2560" y="4320" width="1280" height="720"/>
-	<SubTexture name="Trigger0024" x="3840" y="4320" width="1280" height="720"/>
-	<SubTexture name="Trigger0025" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0026" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0027" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0028" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0029" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0030" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0031" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0032" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0033" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0034" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0035" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0036" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0037" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0038" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0039" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0040" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0041" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0042" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0043" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0044" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0045" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0046" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0047" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0048" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0049" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0050" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0051" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0052" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0053" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0054" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0055" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0056" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0057" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0058" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0059" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0060" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0061" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0062" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0063" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0064" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0065" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0066" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0067" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0068" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0069" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="Trigger0070" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0000" x="1280" y="1440" width="1280" height="720"/>
-	<SubTexture name="idle0001" x="1280" y="1440" width="1280" height="720"/>
-	<SubTexture name="idle0002" x="2560" y="1440" width="1280" height="720"/>
-	<SubTexture name="idle0003" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0004" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0005" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0006" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0007" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0008" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0009" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0010" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0011" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0012" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0013" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0014" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0015" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0016" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0017" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0018" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0019" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0020" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0021" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0022" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0023" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0024" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="idle0025" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0000" x="0" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0001" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0002" x="1280" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0003" x="2560" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0004" x="3840" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0005" x="5120" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0006" x="6400" y="0" width="1280" height="720"/>
-	<SubTexture name="retry0007" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0008" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0009" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0010" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0011" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0012" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0013" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0014" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0015" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0016" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0017" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0018" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0019" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0020" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0021" x="0" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0022" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0023" x="1280" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0024" x="2560" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0025" x="3840" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0026" x="5120" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0027" x="6400" y="720" width="1280" height="720"/>
-	<SubTexture name="retry0028" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0029" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0030" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0031" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0032" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0033" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0034" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0035" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0036" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0037" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0038" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0039" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0040" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0041" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0042" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0043" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0044" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0045" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0046" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0047" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0048" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0049" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0050" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0051" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0052" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0053" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0054" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0055" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0056" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0057" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0058" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0059" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0060" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0061" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0062" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0063" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0064" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0065" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0066" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0067" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0068" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0069" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0070" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0071" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0072" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0073" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0074" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0075" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0076" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0077" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0078" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0079" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0080" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0081" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0082" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0083" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0084" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0085" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0086" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0087" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0088" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0089" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0090" x="0" y="1440" width="1280" height="720"/>
-	<SubTexture name="retry0091" x="0" y="1440" width="1280" height="720"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Trigger0000" x="1511" y="105" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0001" x="1389" y="595" width="89" height="216" frameX="2" frameY="-355" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0002" x="1094" y="595" width="295" height="280" frameX="2" frameY="-277" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0003" x="1094" y="308" width="385" height="287" frameX="2" frameY="-264" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0004" x="1094" y="0" width="417" height="308" frameX="2" frameY="-268" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0005" x="0" y="578" width="444" height="306" frameX="2" frameY="-268" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0006" x="0" y="277" width="480" height="301" frameX="2" frameY="-268" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0007" x="585" y="283" width="498" height="287" frameX="2" frameY="-269" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0008" x="585" y="0" width="509" height="283" frameX="2" frameY="-274" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0009" x="0" y="0" width="585" height="277" frameX="2" frameY="-282" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0010" x="639" y="1324" width="265" height="75" frameX="-318" frameY="-468" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0011" x="211" y="884" width="242" height="119" frameX="-330" frameY="-430" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0012" x="0" y="884" width="211" height="140" frameX="-353" frameY="-412" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0013" x="390" y="1182" width="221" height="118" frameX="-391" frameY="-426" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0014" x="912" y="715" width="160" height="105" frameX="-452" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0015" x="1511" y="0" width="142" height="105" frameX="-487" frameY="-431" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0016" x="902" y="578" width="177" height="131" frameX="-494" frameY="-405" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0017" x="206" y="1324" width="205" height="124" frameX="-501" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0018" x="0" y="1324" width="206" height="124" frameX="-500" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0019" x="411" y="1324" width="228" height="108" frameX="-494" frameY="-432" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0020" x="611" y="1182" width="233" height="111" frameX="-495" frameY="-431" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0021" x="951" y="1024" width="237" height="113" frameX="-495" frameY="-429" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0022" x="697" y="884" width="238" height="115" frameX="-496" frameY="-428" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0023" x="715" y="1024" width="236" height="114" frameX="-497" frameY="-429" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0024" x="1181" y="884" width="252" height="107" frameX="-483" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0025" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0026" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0027" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0028" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0029" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0030" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0031" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0032" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0033" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0034" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0035" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0036" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0037" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0038" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0039" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0040" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0041" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0042" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0043" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0044" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0045" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0046" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0047" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0048" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0049" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0050" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0051" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0052" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0053" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0054" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0055" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0056" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0057" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0058" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0059" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0060" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0061" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0062" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0063" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0064" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0065" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0066" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0067" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0068" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0069" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Trigger0070" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0000" x="1092" y="1182" width="249" height="103" frameX="-482" frameY="-438" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0001" x="1092" y="1182" width="249" height="103" frameX="-482" frameY="-438" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0002" x="844" y="1182" width="248" height="104" frameX="-484" frameY="-437" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0003" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0004" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0005" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0006" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0007" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0008" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0009" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0010" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0011" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0012" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0013" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0014" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0015" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0016" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0017" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0018" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0019" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0020" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0021" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0022" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0023" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0024" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle0025" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0000" x="1188" y="1024" width="248" height="106" frameX="-486" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0001" x="935" y="884" width="246" height="111" frameX="-484" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0002" x="935" y="884" width="246" height="111" frameX="-484" frameY="-435" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0003" x="453" y="884" width="244" height="118" frameX="-482" frameY="-430" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0004" x="672" y="715" width="240" height="126" frameX="-481" frameY="-426" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0005" x="674" y="578" width="228" height="137" frameX="-488" frameY="-420" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0006" x="444" y="578" width="230" height="137" frameX="-486" frameY="-421" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0007" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0008" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0009" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0010" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0011" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0012" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0013" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0014" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0015" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0016" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0017" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0018" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0019" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0020" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0021" x="444" y="715" width="228" height="137" frameX="-486" frameY="-422" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0022" x="188" y="1182" width="202" height="131" frameX="-490" frameY="-412" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0023" x="188" y="1182" width="202" height="131" frameX="-490" frameY="-412" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0024" x="0" y="1182" width="188" height="142" frameX="-492" frameY="-400" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0025" x="533" y="1024" width="182" height="152" frameX="-510" frameY="-390" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0026" x="0" y="1024" width="177" height="158" frameX="-522" frameY="-384" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0027" x="177" y="1024" width="177" height="157" frameX="-522" frameY="-384" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0028" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0029" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0030" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0031" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0032" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0033" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0034" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0035" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0036" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0037" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0038" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0039" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0040" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0041" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0042" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0043" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0044" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0045" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0046" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0047" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0048" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0049" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0050" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0051" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0052" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0053" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0054" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0055" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0056" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0057" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0058" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0059" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0060" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0061" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0062" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0063" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0064" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0065" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0066" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0067" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0068" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0069" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0070" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0071" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0072" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0073" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0074" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0075" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0076" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0077" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0078" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0079" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0080" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0081" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0082" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0083" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0084" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0085" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0086" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0087" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0088" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0089" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0090" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="retry0091" x="354" y="1024" width="179" height="155" frameX="-521" frameY="-386" frameWidth="1280" frameHeight="720"/>
 </TextureAtlas>
