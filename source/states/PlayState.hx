@@ -39,7 +39,6 @@ import cutscenes.DialogueBoxPsych;
 import states.StoryMenuState;
 import states.FreeplayState;
 import states.editors.ChartingState;
-import states.editors.CharacterEditorState;
 
 import substates.PauseSubState;
 import substates.GameOverSubstate;
@@ -1953,7 +1952,9 @@ class PlayState extends MusicBeatState
 		paused = true;
 		cancelMusicFadeTween();
 		#if desktop DiscordClient.resetClientID(); #end
+		#if desktop
 		MusicBeatState.switchState(new CharacterEditorState(SONG.player2));
+		#end
 	}
 
 	public var isDead:Bool = false; //Don't mess with this on Lua!!!
