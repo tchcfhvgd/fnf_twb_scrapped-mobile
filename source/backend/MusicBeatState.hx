@@ -3,9 +3,12 @@ package backend;
 import flixel.addons.ui.FlxUIState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxState;
+import backend.PsychCamera;
 
 class MusicBeatState extends FlxUIState
 {
+	public static var instance:MusicBeatState;
+
 	private var curSection:Int = 0;
 	private var stepsToDo:Int = 0;
 
@@ -20,20 +23,99 @@ class MusicBeatState extends FlxUIState
 		return Controls.instance;
 	}
 
-	public static var camBeat:FlxCamera;
+	public var virtualPad:FlxVirtualPad;
+	public var mobileControls:MobileControls;
+	public var camControls:FlxCamera;
+	public var vpadCam:FlxCamera;
+
+	public function addVirtualPad(DPad:FlxDPadMode, Action:FlxActionMode)
+	{
+		virtualPad = new FlxVirtualPad(DPad, Action);
+		virtualPad.alpha = ClientPrefs.data.controlsAlpha;
+		add(virtualPad);
+	}
+
+	public function removeVirtualPad()
+	{
+		if (virtualPad != null)
+			remove(virtualPad);
+	}
+
+	public function addMobileControls(DefaultDrawTarget:Bool = true):Void
+	{
+		mobileControls = new MobileControls();
+
+		camControls = new FlxCamera();
+		camControls.bgColor.alpha = 0;
+		FlxG.cameras.add(camControls, DefaultDrawTarget);
+
+		mobileControls.cameras = [camControls];
+		mobileControls.visible = false;
+		mobileControls.alpha = ClientPrefs.data.controlsAlpha;
+		add(mobileControls);
+	}
+
+	public function removeMobileControls()
+	{
+		if (mobileControls != null)
+			remove(mobileControls);
+	}
+
+	public function addVirtualPadCamera(DefaultDrawTarget:Bool = true):Void
+	{
+		if (virtualPad != null)
+		{
+			vpadCam = new FlxCamera();
+			vpadCam.bgColor.alpha = 0;
+			FlxG.cameras.add(vpadCam, DefaultDrawTarget);
+			virtualPad.cameras = [vpadCam];
+		}
+	}
+
+	override function destroy()
+	{
+		super.destroy();
+
+		if (virtualPad != null)
+		{
+			virtualPad = FlxDestroyUtil.destroy(virtualPad);
+			virtualPad = null;
+		}
+
+		if (mobileControls != null)
+		{
+			mobileControls = FlxDestroyUtil.destroy(mobileControls);
+			mobileControls = null;
+		}
+	}
+
+	var _psychCameraInitialized:Bool = false;
 
 	override function create() {
-		camBeat = FlxG.camera;
+		instance = this;
+
 		var skip:Bool = FlxTransitionableState.skipNextTransOut;
 		#if MODS_ALLOWED Mods.updatedOnState = false; #end
+
+		if(!_psychCameraInitialized) initPsychCamera();
 
 		super.create();
 
 		if(!skip) {
-			openSubState(new CustomFadeTransition(0.7, true));
+			openSubState(new CustomFadeTransition(0.6, true));
 		}
 		FlxTransitionableState.skipNextTransOut = false;
 		timePassedOnState = 0;
+	}
+
+	public function initPsychCamera():PsychCamera
+	{
+		var camera = new PsychCamera();
+		FlxG.cameras.reset(camera);
+		FlxG.cameras.setDefaultDrawTarget(camera, true);
+		_psychCameraInitialized = true;
+		//trace('initialized psych camera ' + Sys.cpuTime());
+		return camera;
 	}
 
 	public static var timePassedOnState:Float = 0;
