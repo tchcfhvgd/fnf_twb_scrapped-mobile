@@ -88,6 +88,10 @@ class Main extends Sprite
 
 	private function setupGame():Void
 	{
+		#if mobile
+		Storage.copyNecessaryFiles();
+		#end
+		
 		#if LUA_ALLOWED Lua.set_callbacks_function(cpp.Callable.fromStaticFunction(psychlua.CallbackHandler.call)); #end
 		Controls.instance = new Controls();
 		ClientPrefs.loadDefaultKeys();
