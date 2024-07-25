@@ -83,10 +83,26 @@ class Storage
 			}
 		}
 		#end
+		
 		#if sys
 		for (file in Assets.list().filter(folder -> folder.startsWith('mods/images')))
 		{
 			if (Path.extension(file) == 'png')
+			{
+				// Ment for FNF's libraries system...
+				final shit:String = file.replace(file.substring(0, file.indexOf('/', 0) + 1), '');
+				final library:String = shit.replace(shit.substring(shit.indexOf('/', 0), shit.length), '');
+
+				@:privateAccess
+				Storage.copyFile(Assets.libraryPaths.exists(library) ? '$library:$file' : file, file);
+			}
+		}
+		#end
+
+		#if sys
+		for (file in Assets.list().filter(folder -> folder.startsWith('mods/shaders')))
+		{
+			if (Path.extension(file) == 'frag')
 			{
 				// Ment for FNF's libraries system...
 				final shit:String = file.replace(file.substring(0, file.indexOf('/', 0) + 1), '');
