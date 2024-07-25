@@ -171,6 +171,9 @@ class EndingsBadMenuState extends MusicBeatState
 						slowlyMusic = 1;}
 			});
 
+		addVirtualPad(LEFT_RIGHT, A_B_C);
+		addVirtualPadCamera(false);
+		
 		super.create();
 	}
 
@@ -187,42 +190,14 @@ class EndingsBadMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.keys.firstJustPressed() != FlxKey.NONE)
-		{
-			var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
-			var keyName:String = Std.string(keyPressed);
-			if(allowedKeys.contains(keyName)) {
-				trueKeysBuffer += keyName;
-				if(trueKeysBuffer.length >= 32) trueKeysBuffer = trueKeysBuffer.substring(1);
-				//trace('Test! Allowed Key pressed!!! Buffer: ' + trueKeysBuffer);
+		if(virtualPad.buttonC.justPressed) {
+			FlxG.sound.play(Paths.sound('confirmMenu'));
 
-				for (wordRaw in trueKeys)
+				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					var word:String = wordRaw.toUpperCase(); //just for being sure you're doing it right
-					if (trueKeysBuffer.contains(word))
-					{
-						//trace('YOOO! ' + word);
-						FlxG.save.data.trueTriggerSave = '';
-						if (FlxG.save.data.trueTriggerSave == word)
-							FlxG.save.data.trueTriggerSave = '';
-						else
-							FlxG.save.data.trueTriggerSave = word;
-							word = '';
-						FlxG.save.flush();
-
-						FlxG.sound.play(Paths.sound('confirmMenu'));
-
-						new FlxTimer().start(1, function(tmr:FlxTimer)
-						{
-						MusicBeatState.switchState(new EndingsMenuState());
-						});
-						FlxG.save.data.trueTriggerSave = '';
-						trueKeysBuffer = '';
-						break;
-					}
-				}
+					MusicBeatState.switchState(new EndingsMenuState());
+					});
 			}
-		}
 
 		if (FlxG.sound.music.volume < 0.8)
 		{
