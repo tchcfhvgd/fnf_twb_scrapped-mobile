@@ -305,6 +305,9 @@ class CreditsStateFunkin extends MusicBeatState
 		bg.color = CoolUtil.colorFromString(creditsStuff[curSelected][4]);
 		intendedColor = bg.color;
 		changeSelection();
+		
+		addVirtualPad(UP_DOWN, A_B);
+		
 		super.create();
 	}
 
