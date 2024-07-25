@@ -207,6 +207,8 @@ class GalleryState extends MusicBeatState
 		}
 		#end
 
+		addVirtualPad(LEFT_RIGHT, A_B);
+			
 		super.create();
 	}
 
