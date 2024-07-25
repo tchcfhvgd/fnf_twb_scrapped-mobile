@@ -1,8 +1,5 @@
 //SHADERTOY PORT FIX (thx bb)
 #pragma header
-vec2 uv = openfl_TextureCoordv.xy;
-vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
 uniform float iTime;
 uniform float distort; // no touchie this i think
 uniform float amount;
@@ -16,7 +13,7 @@ uniform float pixel;
 // 2020-03-25 02:11:48
 
 #define time iTime * 0.5
-#define resolution ( iResolution.xy )
+#define resolution ( openfl_TextureSize.xy )
 #define PI 3.14159265
 
 vec2 PincushionDistortion(in vec2 uv, float strength) 
@@ -58,8 +55,8 @@ float noise( vec2 _v ){
 }
 
 void main(){
-  vec2 fragCoord = openfl_TextureCoordv * iResolution;
-  vec2 uv = gl_FragCoord.xy / resolution;
+  uv = openfl_TextureCoordv.xy;
+  vec2 uv = openfl_TextureCoordv.xy;
   vec2 uvn = uv;
   vec3 col = vec3( 0.0 );
   vec4 color = texture2D(bitmap, uv);
