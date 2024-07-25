@@ -119,6 +119,8 @@ class BorgorOneState extends MusicBeatState
 		}
 		#end
 
+		addVirtualPad(NONE, A_B);
+			
 		super.create();
 	}
 
