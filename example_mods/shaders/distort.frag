@@ -22,7 +22,7 @@ void main()
     uv /= (1.0 + distort * l * l);
     uv += vec2(0.5);
     uv = PincushionDistortion(uv, amount);
-    if(pixel <= 0){
+    if(pixel <= 0.0){
         floor(uv * openfl_TextureSize.x + pixel) / (openfl_TextureSize.x + pixel);
     }else{
         uv = floor(uv * openfl_TextureSize.x / pixel) / (openfl_TextureSize.x / pixel);

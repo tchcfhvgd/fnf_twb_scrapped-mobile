@@ -1,5 +1,6 @@
 //SHADERTOY PORT FIX (thx bb)
 #pragma header
+vec2 uv;
 uniform float iTime;
 uniform float distort; // no touchie this i think
 uniform float amount;
