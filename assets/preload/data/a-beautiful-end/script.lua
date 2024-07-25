@@ -17,21 +17,6 @@ function onStartCountdown()
 		allowCountdown = true;
 		return Function_Stop;
 	end
-    
-    setPropertyFromClass('openfl.Lib', 'application.window.fullscreen', false)
-    addHaxeLibrary('FlxG','flixel')
-    addHaxeLibrary('Lib','openfl')
-    addHaxeLibrary('RatioScaleMode', 'flixel.system.scaleModes')
-    addHaxeLibrary('BaseScaleMode', 'flixel.system.scaleModes')
-    runHaxeCode([[
-        Lib.application.window.resizable = false;
-        FlxG.scaleMode = new BaseScaleMode();
-        FlxG.resizeGame(960, 720);
-        FlxTween.tween(Lib.application.window, {x: 280}, 2, {ease: FlxEase.quadInOut});
-        FlxTween.tween(Lib.application.window, {height: 720}, 2, {ease: FlxEase.quadInOut});
-        FlxTween.tween(Lib.application.window, {width: 960}, 2, {ease: FlxEase.quadInOut});
-    ]])
-    --FlxG.resizeWindow(960, 720);
 	return Function_Continue;
 end
 function onCreate()
