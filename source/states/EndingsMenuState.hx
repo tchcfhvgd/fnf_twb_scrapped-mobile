@@ -174,6 +174,9 @@ class EndingsMenuState extends MusicBeatState
 						slowlyMusic = 1;}
 			});
 
+		addVirtualPad(LEFT_FULL, A_B);
+		addVirtualPadCamera(false);
+		
 		super.create();
 	}
 
