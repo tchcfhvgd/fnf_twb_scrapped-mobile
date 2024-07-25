@@ -99,6 +99,10 @@ class WarningState extends MusicBeatState
 		bg.color = CoolUtil.colorFromString(creditsStuff[curSelected][4]);
 		intendedColor = bg.color;
 		changeSelection();
+		
+		addVirtualPad(NONE, A_B);
+		addVirtualPadCamera(false);
+		
 		super.create();
 	}
 
