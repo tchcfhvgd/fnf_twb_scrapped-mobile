@@ -33,10 +33,28 @@ class Storage
 		}
 		#end
 
-		#if LUA_ALLOWED
+	        #if LUA_ALLOWED
 		for (dir in ['characters', 'data', 'custom_events', 'custom_notetypes', 'stages'])
 		{
 			for (file in Assets.list().filter(folder -> folder.startsWith('assets/$dir')))
+			{
+				if (Path.extension(file) == 'lua' || (dir == 'custom_events' && Path.extension(file) == 'txt'))
+				{
+					// Ment for FNF's libraries system...
+					final shit:String = file.replace(file.substring(0, file.indexOf('/', 0) + 1), '');
+					final library:String = shit.replace(shit.substring(shit.indexOf('/', 0), shit.length), '');
+
+					@:privateAccess
+					Storage.copyFile(Assets.libraryPaths.exists(library) ? '$library:$file' : file, file);
+				}
+			}
+		}
+		#end
+
+		#if LUA_ALLOWED
+		for (dir in ['characters', 'data', 'custom_events', 'custom_notetypes', 'stages'])
+		{
+			for (file in Assets.list().filter(folder -> folder.startsWith('mods/$dir')))
 			{
 				if (Path.extension(file) == 'lua' || (dir == 'custom_events' && Path.extension(file) == 'txt'))
 				{
@@ -55,6 +73,20 @@ class Storage
 		for (file in Assets.list().filter(folder -> folder.startsWith('assets/videos')))
 		{
 			if (Path.extension(file) == 'mp4')
+			{
+				// Ment for FNF's libraries system...
+				final shit:String = file.replace(file.substring(0, file.indexOf('/', 0) + 1), '');
+				final library:String = shit.replace(shit.substring(shit.indexOf('/', 0), shit.length), '');
+
+				@:privateAccess
+				Storage.copyFile(Assets.libraryPaths.exists(library) ? '$library:$file' : file, file);
+			}
+		}
+		#end
+		#if sys
+		for (file in Assets.list().filter(folder -> folder.startsWith('mods/images')))
+		{
+			if (Path.extension(file) == 'png')
 			{
 				// Ment for FNF's libraries system...
 				final shit:String = file.replace(file.substring(0, file.indexOf('/', 0) + 1), '');
