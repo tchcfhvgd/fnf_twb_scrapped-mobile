@@ -1716,7 +1716,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnScripts('onPause', null, true);
 			if(ret != FunkinLua.Function_Stop) {
@@ -2425,7 +2425,7 @@ class PlayState extends MusicBeatState
 							CustomFadeTransition.nextCamera = null;
 							}
 					case "run":
-						if (songMisses <= 15)
+						if (songMisses <= 415)
 							{
 						PlayState.SONG = backend.Song.loadFromJson('sleepless-night', 'sleepless-night');
 						PlayState.isStoryMode = true;
